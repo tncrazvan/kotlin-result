@@ -28,3 +28,15 @@ fun main(){
     println("User ${user.get().username} is valid.")
 }
 ```
+
+
+You can add the library to your maven project with
+
+```xml
+<repositories>
+    <repository>
+        <id>dev.razshare.unsafe</id>
+        <url>https://raw.githubusercontent.com/tncrazvan/kotlin-unsafe/master</url>
+    </repository>
+</repositories>
+```
