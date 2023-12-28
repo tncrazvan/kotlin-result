@@ -1,8 +1,6 @@
 # Kotlin Unsafe
 
-This is a simple standalone utility library for managing unsafe results in Kotlin.
-
-Instead of throwing exceptions
+This is a simple standalone utility library for managing unsafe results in Kotlin instead of throwing exceptions.
 
 ```kt
 import dev.razshare.Unsafe
