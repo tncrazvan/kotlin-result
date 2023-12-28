@@ -1,1 +1,3 @@
-data class Maybe<T>(val value:T?, val error: Boolean, val message: String)
+import java.util.Optional
+
+data class Unsafe<T>(val value:Optional<T>, val error: Optional<Error>)
