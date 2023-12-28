@@ -39,4 +39,14 @@ You can add the library to your maven project with
         <url>https://raw.githubusercontent.com/tncrazvan/kotlin-unsafe/master</url>
     </repository>
 </repositories>
+
+
+<dependencies>
+    <dependency>
+        <groupId>dev.razshare</groupId>
+        <artifactId>unsafe</artifactId>
+        <version>1.0.0</version>
+        <type>jar</type>
+    </dependency>
+</dependencies>
 ```
