@@ -1,3 +1,5 @@
+package dev.razshare.unsafe
+
 import java.util.Optional
 
 fun<T : Any> ok(value: T): Unsafe<T> {
