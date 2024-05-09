@@ -29,29 +29,6 @@ fun main(){
 }
 ```
 
-# Using Gradle Kotlin
-
-- Add the repository to your `build.gradle.kts`
-  ```kt
-  repositories {
-      maven {
-          url = uri("https://raw.githubusercontent.com/tncrazvan/artifacts/main")
-          metadataSources {
-              mavenPom()
-              artifact()
-              ignoreGradleMetadataRedirection()
-          }
-      }
-  }
-  ```
-
-- Add the library to your `build.gradle.kts`, for example `dev.razshare.result`
-  ```kt
-  dependencies {
-      implementation("dev.razshare:result:0.1.0")
-  }
-  ```
-
 # Using Maven
 
 - Add the repository to your `pom.xml`
@@ -74,4 +51,27 @@ fun main(){
           <type>jar</type>
       </dependency>
   </dependencies>
+  ```
+
+# Using Gradle Kotlin
+
+- Add the repository to your `build.gradle.kts`
+  ```kt
+  repositories {
+      maven {
+          url = uri("https://raw.githubusercontent.com/tncrazvan/artifacts/main")
+          metadataSources {
+              mavenPom()
+              artifact()
+              ignoreGradleMetadataRedirection()
+          }
+      }
+  }
+  ```
+
+- Add the library to your `build.gradle.kts`, for example `dev.razshare.result`
+  ```kt
+  dependencies {
+      implementation("dev.razshare:result:0.1.0")
+  }
   ```
